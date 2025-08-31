@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color:
+}
+
+body{
+
+background-color:aliceblue;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 5px;
+margin: 10px;
+margin-right: 15px;
+
+
+
+
+}
+
+
+.evrdylogo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+.evrdylogo1 {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+h2 { 
+color:#406A9D;
+text-align: center;
+display:block ;
+width: 100%;
+ 
+}
+P {
+font-size: larger;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display: block;
+
+}
+h4 {
+margin-top: 2px;
+  display: block;
+  
+}
+
+span {
+  display: block;
+
+}
+
+.p1 {
+  font-size: larger;
+  list-style: none;
+ 
+}
+
+.confirm{
+  font-size: large;
+  font-weight: 500;
+  color: rgb(224, 20, 20);
+}
+
+
+
+
+confirm1 {
+display: inline-block;
+width: 50px;
+size: 100px;
+}
+
+.button {
+ display: block;
+ display: flex;
+ justify-self:center;
+ margin-bottom: 50px;
+ font-size: larger;
+}
+
+.form {
+
+  display:flex ;
+  justify-self: center;
+  flex-wrap: wrap;
+  width: 100%;
+
+} 
+
+.win {
+ height: 100px;
+   left: 0;
+   bottom: 0;
+   display: flex;
+   background-color: red;
+   color: white;
+   text-align: center;
+   justify-content: center;
+   position: fixed;
+}
+
+.mgmg {
+  text-align: center;
+  color: red;
+}
+.color {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  display: flex;
+  justify-items: center;
+}
+.color1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: flex;
+  justify-items: center;
+}
+.maincolor {
+  background-color:black 
+   flex-position:row;
+   display:flex;
+  align-content:center;
+
+}
+.last {
+color: blue;
+text-align: center;
+justify-content: center;
+flex-wrap:wrap; 
+  
+  background-color: black;
+
+}
+
+@media (max-width: 600px) {
+  .evrdylogo {
+    flex-wrap: wrap;
+
+  }
+  
+.evrdylogo {
+
+ width: 200px;
+ height: 200px;
+ overflow: hidden;
+}
+p {
+  flex-wrap: wrap;
+  font-size: 17PX;
+  text-align: justify;
+}
+.form {
+  display:flex ;
+  justify-self: center;
+  width: 100%;
+  flex-wrap:wrap; 
+  
+}
+.last {
+justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: aqua;
+
+}
+  }
